@@ -1,0 +1,14 @@
+# Terraform state and config
+.terraform/
+*.tfstate
+*.tfstate.*
+*.backup
+*.log
+
+# SSH keys
+*.pem
+id_rsa
+id_rsa.pub
+
+# Local variable files
+terraform.tfvars
